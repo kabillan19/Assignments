@@ -12,7 +12,7 @@ public class labassignment09 {
                 numbers[i] = sc.nextInt();
             }
             System.out.println("Values at even indexes:");
-            for (int i = 0; i < numbers.length; i += 2) {
+            for (int i = 2; i < numbers.length; i += 2) {
                 System.out.print(numbers[i] + " ");
 
             }
