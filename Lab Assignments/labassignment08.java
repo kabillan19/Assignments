@@ -9,8 +9,10 @@ public class labassignment08 {
             int num = scanner.nextInt();
             System.out.println("Even multiples of " + num + " up to its square:");
 
-            for (int i = 2; i <= num * num; i += 2) {
-                System.out.print(i + " ");
+            for (int i = 0; i <= num * num; i++) {
+                if (i%2==0 && i%num==0) {
+                    System.out.println(i);
+                }
             }
         }
     }
